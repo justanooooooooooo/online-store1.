@@ -137,7 +137,9 @@ Notes / Limitations:
     // In-memory cart
     const cart = {};
 
-    function formatMoney(n){return '$' + n.toFixed(2)}
+    function formatMoney(n){
+     return 'NT$' + n
+    }
 
     function renderProducts(){
       const container = document.getElementById('productList');
